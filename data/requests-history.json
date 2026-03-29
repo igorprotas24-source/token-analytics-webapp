@@ -1,6 +1,7 @@
 [
   {
     "id": "req_0001",
+    "session_id": "cfc3676e-c3bb-4c82-aa91-4e0011139fb3",
     "timestamp": "2026-03-29T03:36:54Z",
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex",
@@ -12,6 +13,7 @@
   },
   {
     "id": "req_0002",
+    "session_id": "6bed6349-f22c-478f-9018-aa9b28b7928a",
     "timestamp": "2026-03-29T03:37:06Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -23,6 +25,7 @@
   },
   {
     "id": "req_0003",
+    "session_id": "5bfb27a0-318d-4c99-a63c-c8b69d3d7bc1",
     "timestamp": "2026-03-29T03:38:35Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -34,6 +37,7 @@
   },
   {
     "id": "req_0004",
+    "session_id": "1c08fcaf-b75f-476e-9c32-0048b95a3329",
     "timestamp": "2026-03-29T03:38:44Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -45,6 +49,7 @@
   },
   {
     "id": "req_0005",
+    "session_id": "dccff80c-cf9e-4c97-b777-63dfe1383a67",
     "timestamp": "2026-03-29T14:03:09Z",
     "agent": "mcs-assistant",
     "model": "google/gemini-2.5-flash",
@@ -56,6 +61,7 @@
   },
   {
     "id": "req_0006",
+    "session_id": "f03ce8fb-65da-4536-99af-d1426d7c4646",
     "timestamp": "2026-03-29T18:43:13Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -67,6 +73,7 @@
   },
   {
     "id": "req_0007",
+    "session_id": "3c5efecf-3560-4804-b9ff-c8c9308331bf",
     "timestamp": "2026-03-29T19:05:33Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
