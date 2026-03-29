@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-03-29T19:08:05Z",
+  "updated_at": "2026-03-29T20:00:11Z",
   "gateway": "running",
   "sessions": [
     {
       "agent": "main",
       "model": "gpt-5.3-codex",
-      "tokens_used": 35514,
+      "tokens_used": 38018,
       "context_window": 272000,
-      "last_active": "151s ago",
-      "input_tokens": 826,
-      "output_tokens": 170,
-      "cache_read": 34688
+      "last_active": "994s ago",
+      "input_tokens": 258,
+      "output_tokens": 180,
+      "cache_read": 37760
     },
     {
       "agent": "main",
       "model": "gpt-5.3-codex",
       "tokens_used": 14646,
       "context_window": 272000,
-      "last_active": "1491s ago",
+      "last_active": "1018s ago",
       "input_tokens": 14646,
       "output_tokens": 9,
       "cache_read": 0
@@ -27,7 +27,7 @@
       "model": "gemini-2.5-flash",
       "tokens_used": 15555,
       "context_window": 1000000,
-      "last_active": "18295s ago",
+      "last_active": "21421s ago",
       "input_tokens": 15555,
       "output_tokens": 259,
       "cache_read": 0
@@ -37,7 +37,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 12371,
       "context_window": 200000,
-      "last_active": "55760s ago",
+      "last_active": "58886s ago",
       "input_tokens": 8732,
       "output_tokens": 1043,
       "cache_read": 39168
@@ -47,7 +47,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 12400,
       "context_window": 200000,
-      "last_active": "55769s ago",
+      "last_active": "58895s ago",
       "input_tokens": 12416,
       "output_tokens": 258,
       "cache_read": 12160
@@ -57,7 +57,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 34077,
       "context_window": 200000,
-      "last_active": "55858s ago",
+      "last_active": "58984s ago",
       "input_tokens": 33734,
       "output_tokens": 3770,
       "cache_read": 149888
@@ -67,7 +67,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 10230,
       "context_window": 200000,
-      "last_active": "55870s ago",
+      "last_active": "58996s ago",
       "input_tokens": 8694,
       "output_tokens": 347,
       "cache_read": 1536
