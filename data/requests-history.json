@@ -402,9 +402,9 @@
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
     "skill": "cron",
-    "input_tokens": 40455,
-    "output_tokens": 974,
-    "cache_read": 12665,
+    "input_tokens": 23011,
+    "output_tokens": 1480,
+    "cache_read": 42240,
     "provider": "openai-codex"
   }
 ]
