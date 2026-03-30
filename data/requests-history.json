@@ -97,6 +97,18 @@
   },
   {
     "id": "req_0009",
+    "session_id": "513cdaa6-bce4-4a94-ae4a-3b3bfa10fd45",
+    "timestamp": "2026-03-23T07:00:00Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-pro",
+    "skill": "cron",
+    "input_tokens": 40455,
+    "output_tokens": 974,
+    "cache_read": 12665,
+    "provider": "google"
+  },
+  {
+    "id": "req_0010",
     "session_id": "03725857-4bf1-4359-9190-4e93936b15bd",
     "timestamp": "2026-03-24T19:54:33Z",
     "agent": "zametki_agent",
@@ -108,7 +120,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0010",
+    "id": "req_0011",
     "session_id": "331cc6b6-9cf5-4258-9475-4d3c6c5a9323",
     "timestamp": "2026-03-25T19:42:59Z",
     "agent": "zametki_agent",
@@ -120,7 +132,19 @@
     "provider": "google"
   },
   {
-    "id": "req_0011",
+    "id": "req_0012",
+    "session_id": "c48d3d25-41f5-46d2-980e-03f19c558784",
+    "timestamp": "2026-03-26T09:34:38Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "telegram",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0013",
     "session_id": "fa20ee26-e0e5-40b1-b6f4-147d104864a2",
     "timestamp": "2026-03-26T13:54:20Z",
     "agent": "zametki_agent",
@@ -132,7 +156,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0012",
+    "id": "req_0014",
     "session_id": "151706d0-c12c-4961-8327-5f8ea5e341b2",
     "timestamp": "2026-03-26T13:54:50Z",
     "agent": "zametki_agent",
@@ -144,7 +168,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0013",
+    "id": "req_0015",
     "session_id": "108f50ea-98dc-406d-a29d-f5c790b8b15b",
     "timestamp": "2026-03-27T04:33:02Z",
     "agent": "coder",
@@ -156,7 +180,7 @@
     "provider": "anthropic"
   },
   {
-    "id": "req_0014",
+    "id": "req_0016",
     "session_id": "2b881186-e1a0-4ea5-bda1-9abe3751b366",
     "timestamp": "2026-03-27T14:45:26Z",
     "agent": "mcs-assistant",
@@ -168,7 +192,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0015",
+    "id": "req_0017",
     "session_id": "78d560a3-0c4f-4f3b-bee2-d86a1b5c886e",
     "timestamp": "2026-03-27T14:46:03Z",
     "agent": "zametki_agent",
@@ -180,7 +204,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0016",
+    "id": "req_0018",
     "session_id": "06656b10-c5d4-425b-921a-86748e06645e",
     "timestamp": "2026-03-27T14:46:41Z",
     "agent": "car-analyst",
@@ -192,7 +216,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0017",
+    "id": "req_0019",
     "session_id": "f4c7230d-4db1-4116-9e27-10d20ba43358",
     "timestamp": "2026-03-27T14:47:51Z",
     "agent": "deal-analyst",
@@ -204,7 +228,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0018",
+    "id": "req_0020",
     "session_id": "d2dafb62-f26a-478b-8c50-372380e81551",
     "timestamp": "2026-03-27T15:10:53Z",
     "agent": "agent-builder",
@@ -216,7 +240,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0019",
+    "id": "req_0021",
     "session_id": "0d8e7da9-cc5c-49cb-99d3-9afef9e82f1f",
     "timestamp": "2026-03-27T15:21:19Z",
     "agent": "coder",
@@ -228,7 +252,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0020",
+    "id": "req_0022",
     "session_id": "539b4c4a-2644-4531-abd0-eddaf6b2c1b1",
     "timestamp": "2026-03-28T15:59:22Z",
     "agent": "zametki_agent",
@@ -240,7 +264,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0021",
+    "id": "req_0023",
     "session_id": "cfc3676e-c3bb-4c82-aa91-4e0011139fb3",
     "timestamp": "2026-03-29T03:36:54Z",
     "agent": "zametki_agent",
@@ -252,7 +276,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0022",
+    "id": "req_0024",
     "session_id": "5bfb27a0-318d-4c99-a63c-c8b69d3d7bc1",
     "timestamp": "2026-03-29T03:38:35Z",
     "agent": "main",
@@ -264,7 +288,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0023",
+    "id": "req_0025",
     "session_id": "1c08fcaf-b75f-476e-9c32-0048b95a3329",
     "timestamp": "2026-03-29T03:38:44Z",
     "agent": "main",
@@ -276,7 +300,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0024",
+    "id": "req_0026",
     "session_id": "dccff80c-cf9e-4c97-b777-63dfe1383a67",
     "timestamp": "2026-03-29T14:03:09Z",
     "agent": "mcs-assistant",
@@ -288,7 +312,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0025",
+    "id": "req_0027",
     "session_id": "3c5efecf-3560-4804-b9ff-c8c9308331bf",
     "timestamp": "2026-03-29T19:43:36Z",
     "agent": "main",
@@ -300,7 +324,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0026",
+    "id": "req_0028",
     "session_id": "c7c39205-9663-4a91-b24d-a0f6464bc19a",
     "timestamp": "2026-03-30T02:00:00Z",
     "agent": "main",
@@ -312,7 +336,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0027",
+    "id": "req_0029",
     "session_id": "e012a76c-238c-4e57-adef-92541fe78f6e",
     "timestamp": "2026-03-30T02:03:43Z",
     "agent": "main",
@@ -324,7 +348,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0028",
+    "id": "req_0030",
     "session_id": "e4336f94-22bd-48e3-8938-b6c6ed9a9a66",
     "timestamp": "2026-03-30T02:03:52Z",
     "agent": "main",
@@ -336,7 +360,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0029",
+    "id": "req_0031",
     "session_id": "f03ce8fb-65da-4536-99af-d1426d7c4646",
     "timestamp": "2026-03-30T02:13:11Z",
     "agent": "main",
@@ -345,6 +369,18 @@
     "input_tokens": 14646,
     "output_tokens": 9,
     "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0032",
+    "session_id": "acdb19f8-c475-4bf0-87b1-ece7d9ef4594",
+    "timestamp": "2026-03-30T03:36:54Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 9070,
+    "output_tokens": 394,
+    "cache_read": 1536,
     "provider": "openai-codex"
   }
 ]
