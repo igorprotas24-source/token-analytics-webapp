@@ -37,9 +37,21 @@ now = datetime.now(timezone.utc)
 now_str = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 today = now.strftime("%Y-%m-%d")
 
-# --- Extract sessions ---
+# --- Extract ALL sessions from byAgent (not just recent 10) ---
 sessions_data = status.get("sessions", {})
-recent = sessions_data.get("recent", [])
+by_agent = sessions_data.get("byAgent", [])
+
+# Collect all sessions from all agent blocks
+all_sessions = []
+for agent_block in by_agent:
+    for s in agent_block.get("recent", []):
+        all_sessions.append(s)
+
+# Fallback to top-level recent if byAgent is empty
+if not all_sessions:
+    all_sessions = sessions_data.get("recent", [])
+
+print(f"[collect] Found {len(all_sessions)} total sessions across {len(by_agent)} agents")
 
 # Build status.json (for Status tab)
 gateway_info = status.get("gatewayService", {})
@@ -50,10 +62,10 @@ if gw_status == "unknown":
     if isinstance(gw, dict) and "reachable" in str(gw):
         gw_status = "running"
 
-# Deduplicate sessions (some appear as both key and key:run:id)
+# Deduplicate sessions by sessionId
 seen_ids = set()
 unique_sessions = []
-for s in recent:
+for s in all_sessions:
     sid = s.get("sessionId", "")
     if sid in seen_ids:
         continue
