@@ -236,9 +236,9 @@
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex",
     "skill": "telegram",
-    "input_tokens": 12897,
-    "output_tokens": 28,
-    "cache_read": 0,
+    "input_tokens": 337,
+    "output_tokens": 370,
+    "cache_read": 13184,
     "provider": "openai-codex"
   },
   {
