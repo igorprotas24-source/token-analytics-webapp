@@ -291,9 +291,9 @@
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
     "skill": "telegram",
-    "input_tokens": 258,
-    "output_tokens": 180,
-    "cache_read": 37760,
+    "input_tokens": 281,
+    "output_tokens": 332,
+    "cache_read": 38784,
     "provider": "openai-codex"
   },
   {
