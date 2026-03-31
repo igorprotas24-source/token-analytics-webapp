@@ -383,5 +383,27 @@
     "output_tokens": 5119,
     "cache_read": 763520,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0036",
+    "timestamp": "2026-03-31T02:00:21Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex-spark",
+    "skill": "cron",
+    "input_tokens": 10901,
+    "output_tokens": 261,
+    "cache_read": 13696,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0037",
+    "timestamp": "2026-03-31T02:00:48Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex-spark",
+    "skill": "cron",
+    "input_tokens": 11775,
+    "output_tokens": 356,
+    "cache_read": 11392,
+    "provider": "openai-codex"
   }
 ]
