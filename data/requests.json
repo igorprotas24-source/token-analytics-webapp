@@ -262,5 +262,16 @@
     "output_tokens": 13,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0025",
+    "timestamp": "2026-03-31T11:49:37Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "telegram",
+    "input_tokens": 284,
+    "output_tokens": 51,
+    "cache_read": 15872,
+    "provider": "openai-codex"
   }
 ]
