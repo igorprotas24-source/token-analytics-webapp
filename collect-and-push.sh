@@ -93,9 +93,20 @@ with open(os.path.join(DATA_DIR, "status.json"), "w") as f:
     json.dump(status_out, f, indent=2, ensure_ascii=False)
 print(f"[collect] Wrote status.json with {len(status_out['sessions'])} sessions")
 
-# --- Build requests.json from sessions ---
-# Each session becomes a "request" entry for the webapp
-# Also load history to accumulate over time
+# --- Build requests.json using DELTA tracking ---
+# Compare current session tokens with last known snapshot.
+# If tokens grew since last check, record the delta as a new "request".
+# This way every new message/interaction creates a new entry.
+
+SNAPSHOT_FILE = os.path.join(DATA_DIR, "snapshots.json")
+snapshots = {}
+if os.path.exists(SNAPSHOT_FILE):
+    try:
+        with open(SNAPSHOT_FILE) as f:
+            snapshots = json.load(f)
+    except:
+        snapshots = {}
+
 history = []
 if os.path.exists(HISTORY_FILE):
     try:
@@ -104,61 +115,74 @@ if os.path.exists(HISTORY_FILE):
     except:
         history = []
 
-# Track which session IDs we've already recorded
-known_sids = {r.get("session_id") for r in history if r.get("session_id")}
+def get_provider(model):
+    if "gemini" in model: return "google"
+    if "gpt" in model or "codex" in model: return "openai-codex"
+    if "claude" in model: return "anthropic"
+    return "unknown"
+
+def get_skill(key):
+    if ":cron:" in key: return "cron"
+    if ":telegram:" in key: return "telegram"
+    return None
 
 new_count = 0
+new_snapshots = {}
+
 for s in unique_sessions:
     sid = s.get("sessionId", "")
-    if sid in known_sids:
-        # Update existing entry with latest token counts
-        for h in history:
-            if h.get("session_id") == sid:
-                h["input_tokens"] = s.get("inputTokens", 0)
-                h["output_tokens"] = s.get("outputTokens", 0)
-                h["cache_read"] = s.get("cacheRead", 0)
-                break
+    cur_in = s.get("inputTokens", 0)
+    cur_out = s.get("outputTokens", 0)
+    cur_cache = s.get("cacheRead", 0)
+
+    # Skip empty sessions
+    if cur_in == 0 and cur_out == 0:
+        new_snapshots[sid] = {"in": 0, "out": 0, "cache": 0}
         continue
 
-    # Determine timestamp from updatedAt (epoch ms)
-    updated_at = s.get("updatedAt", 0)
-    if updated_at > 0:
-        ts = datetime.fromtimestamp(updated_at / 1000, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    else:
-        ts = now_str
+    prev = snapshots.get(sid, {})
+    prev_in = prev.get("in", 0)
+    prev_out = prev.get("out", 0)
+    prev_cache = prev.get("cache", 0)
 
-    # Determine provider from model name
-    model = s.get("model", "unknown")
-    if "gemini" in model:
-        provider = "google"
-    elif "gpt" in model or "codex" in model:
-        provider = "openai-codex"
-    elif "claude" in model:
-        provider = "anthropic"
-    else:
-        provider = "unknown"
+    delta_in = cur_in - prev_in
+    delta_out = cur_out - prev_out
+    delta_cache = cur_cache - prev_cache
 
-    # Determine source from session key
-    key = s.get("key", "")
-    skill = None
-    if ":cron:" in key:
-        skill = "cron"
-    elif ":telegram:" in key:
-        skill = "telegram"
+    # Save current snapshot
+    new_snapshots[sid] = {"in": cur_in, "out": cur_out, "cache": cur_cache}
 
-    history.append({
-        "id": f"req_{len(history)+1:04d}",
-        "session_id": sid,
-        "timestamp": ts,
-        "agent": s.get("agentId", "unknown"),
-        "model": f"{provider}/{model}",
-        "skill": skill,
-        "input_tokens": s.get("inputTokens", 0),
-        "output_tokens": s.get("outputTokens", 0),
-        "cache_read": s.get("cacheRead", 0),
-        "provider": provider
-    })
-    new_count += 1
+    # If tokens grew, create a new request entry for the delta
+    if delta_in > 0 or delta_out > 0:
+        updated_at = s.get("updatedAt", 0)
+        if updated_at > 0:
+            ts = datetime.fromtimestamp(updated_at / 1000, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        else:
+            ts = now_str
+
+        model = s.get("model", "unknown")
+        provider = get_provider(model)
+        key = s.get("key", "")
+
+        # If this is a brand new session (no previous snapshot), record full amount
+        # If existing session grew, record the delta
+        history.append({
+            "id": f"req_{len(history)+1:04d}",
+            "session_id": sid,
+            "timestamp": ts,
+            "agent": s.get("agentId", "unknown"),
+            "model": f"{provider}/{model}",
+            "skill": get_skill(key),
+            "input_tokens": max(delta_in, 0),
+            "output_tokens": max(delta_out, 0),
+            "cache_read": max(delta_cache, 0),
+            "provider": provider
+        })
+        new_count += 1
+
+# Save updated snapshots
+with open(SNAPSHOT_FILE, "w") as f:
+    json.dump(new_snapshots, f, indent=2, ensure_ascii=False)
 
 # Sort by timestamp
 history.sort(key=lambda x: x.get("timestamp", ""))
@@ -172,7 +196,6 @@ with open(HISTORY_FILE, "w") as f:
     json.dump(history, f, indent=2, ensure_ascii=False)
 
 # Save requests.json (what the webapp reads)
-# Strip session_id from output (internal field)
 webapp_data = []
 for h in history:
     entry = {k: v for k, v in h.items() if k != "session_id"}
@@ -181,7 +204,7 @@ for h in history:
 with open(os.path.join(DATA_DIR, "requests.json"), "w") as f:
     json.dump(webapp_data, f, indent=2, ensure_ascii=False)
 
-print(f"[collect] Wrote requests.json: {len(webapp_data)} total entries ({new_count} new)")
+print(f"[collect] Wrote requests.json: {len(webapp_data)} total ({new_count} new this run)")
 PYEOF
 
 # --- Step 2: Push to GitHub ---
