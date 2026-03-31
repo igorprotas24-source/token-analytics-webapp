@@ -310,5 +310,29 @@
     "output_tokens": 33,
     "cache_read": 1536,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0027",
+    "session_id": "7ec7991b-7627-47dc-a833-c5b81bb9dbb8",
+    "timestamp": "2026-03-31T19:40:00Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 8363,
+    "output_tokens": 390,
+    "cache_read": 1536,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0028",
+    "session_id": "ac651018-7144-4c4e-9793-0087532eea33",
+    "timestamp": "2026-03-31T19:41:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": null,
+    "input_tokens": 1536,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
