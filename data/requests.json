@@ -23,6 +23,17 @@
   },
   {
     "id": "req_0003",
+    "timestamp": "2026-03-15T08:38:38Z",
+    "agent": "zametki_agent",
+    "model": "google/gemini-2.5-flash",
+    "skill": "telegram",
+    "input_tokens": 51294,
+    "output_tokens": 551,
+    "cache_read": 0,
+    "provider": "google"
+  },
+  {
+    "id": "req_0004",
     "timestamp": "2026-03-21T07:45:00Z",
     "agent": "mcs-assistant",
     "model": "google/gemini-3.1-pro-preview",
@@ -33,7 +44,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0004",
+    "id": "req_0005",
     "timestamp": "2026-03-24T19:54:33Z",
     "agent": "zametki_agent",
     "model": "google/gemini-2.5-flash",
@@ -44,7 +55,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0005",
+    "id": "req_0006",
     "timestamp": "2026-03-25T19:42:59Z",
     "agent": "zametki_agent",
     "model": "google/gemini-2.5-flash",
@@ -55,7 +66,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0006",
+    "id": "req_0007",
     "timestamp": "2026-03-26T13:54:50Z",
     "agent": "zametki_agent",
     "model": "google/gemini-2.5-flash",
@@ -66,7 +77,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0007",
+    "id": "req_0008",
     "timestamp": "2026-03-27T04:33:02Z",
     "agent": "coder",
     "model": "anthropic/claude-opus-4-6",
@@ -77,7 +88,7 @@
     "provider": "anthropic"
   },
   {
-    "id": "req_0008",
+    "id": "req_0009",
     "timestamp": "2026-03-27T14:45:26Z",
     "agent": "mcs-assistant",
     "model": "google/gemini-2.5-pro",
@@ -88,7 +99,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0009",
+    "id": "req_0010",
     "timestamp": "2026-03-27T14:46:03Z",
     "agent": "zametki_agent",
     "model": "google/gemini-2.5-flash",
@@ -99,7 +110,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0010",
+    "id": "req_0011",
     "timestamp": "2026-03-27T14:46:41Z",
     "agent": "car-analyst",
     "model": "google/gemini-2.5-pro",
@@ -110,7 +121,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0011",
+    "id": "req_0012",
     "timestamp": "2026-03-27T14:47:51Z",
     "agent": "deal-analyst",
     "model": "google/gemini-2.5-pro",
@@ -121,7 +132,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0012",
+    "id": "req_0013",
     "timestamp": "2026-03-27T15:10:53Z",
     "agent": "agent-builder",
     "model": "openai-codex/gpt-4o",
@@ -132,7 +143,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0013",
+    "id": "req_0014",
     "timestamp": "2026-03-27T15:21:19Z",
     "agent": "coder",
     "model": "google/gemini-3.1-pro-preview",
@@ -143,7 +154,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0014",
+    "id": "req_0015",
     "timestamp": "2026-03-29T14:03:09Z",
     "agent": "mcs-assistant",
     "model": "google/gemini-2.5-flash",
@@ -154,7 +165,7 @@
     "provider": "google"
   },
   {
-    "id": "req_0015",
+    "id": "req_0016",
     "timestamp": "2026-03-30T07:00:00Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -165,7 +176,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0016",
+    "id": "req_0017",
     "timestamp": "2026-03-30T17:59:58Z",
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex",
@@ -176,7 +187,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0017",
+    "id": "req_0018",
     "timestamp": "2026-03-31T03:36:54Z",
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex-spark",
@@ -187,7 +198,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0018",
+    "id": "req_0019",
     "timestamp": "2026-03-31T08:14:38Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -198,7 +209,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0019",
+    "id": "req_0020",
     "timestamp": "2026-03-31T08:17:12Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -209,7 +220,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0020",
+    "id": "req_0021",
     "timestamp": "2026-03-31T08:19:22Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -220,7 +231,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0021",
+    "id": "req_0022",
     "timestamp": "2026-03-31T08:21:48Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -231,7 +242,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0022",
+    "id": "req_0023",
     "timestamp": "2026-03-31T08:22:07Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -242,7 +253,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0023",
+    "id": "req_0024",
     "timestamp": "2026-03-31T08:27:44Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -253,7 +264,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0024",
+    "id": "req_0025",
     "timestamp": "2026-03-31T08:46:17Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -264,7 +275,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0025",
+    "id": "req_0026",
     "timestamp": "2026-03-31T08:47:57Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -275,7 +286,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0026",
+    "id": "req_0027",
     "timestamp": "2026-03-31T11:49:37Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -286,7 +297,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0027",
+    "id": "req_0028",
     "timestamp": "2026-03-31T15:55:12Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -297,7 +308,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0028",
+    "id": "req_0029",
     "timestamp": "2026-03-31T19:40:00Z",
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex",
@@ -308,7 +319,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0029",
+    "id": "req_0030",
     "timestamp": "2026-03-31T19:41:00Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -319,7 +330,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0030",
+    "id": "req_0031",
     "timestamp": "2026-04-01T00:41:00Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -330,7 +341,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0031",
+    "id": "req_0032",
     "timestamp": "2026-04-01T02:00:02Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -341,7 +352,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0032",
+    "id": "req_0033",
     "timestamp": "2026-04-01T02:02:38Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -352,7 +363,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0033",
+    "id": "req_0034",
     "timestamp": "2026-04-01T02:02:50Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -363,7 +374,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0034",
+    "id": "req_0035",
     "timestamp": "2026-04-01T03:36:54Z",
     "agent": "zametki_agent",
     "model": "openai-codex/gpt-5.3-codex",
@@ -374,7 +385,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0035",
+    "id": "req_0036",
     "timestamp": "2026-04-01T03:41:00Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -385,7 +396,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0036",
+    "id": "req_0037",
     "timestamp": "2026-04-01T03:50:30Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -396,7 +407,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0037",
+    "id": "req_0038",
     "timestamp": "2026-04-01T04:40:59Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -407,7 +418,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0038",
+    "id": "req_0039",
     "timestamp": "2026-04-01T07:41:00Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -418,7 +429,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0039",
+    "id": "req_0040",
     "timestamp": "2026-04-01T10:41:01Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -429,7 +440,7 @@
     "provider": "openai-codex"
   },
   {
-    "id": "req_0040",
+    "id": "req_0041",
     "timestamp": "2026-04-01T17:41:01Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
