@@ -770,6 +770,18 @@
   {
     "id": "req_0065",
     "session_id": "1394de2b-d78b-47f9-863d-1a93fe34368e",
+    "timestamp": "2026-04-03T02:00:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 0,
+    "output_tokens": 231,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0066",
+    "session_id": "1394de2b-d78b-47f9-863d-1a93fe34368e",
     "timestamp": "2026-04-03T02:00:01Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -777,6 +789,42 @@
     "input_tokens": 51584,
     "output_tokens": 3419,
     "cache_read": 415872,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0067",
+    "session_id": "53d49018-83f8-4656-b156-151c5c200b97",
+    "timestamp": "2026-04-03T02:02:03Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 12860,
+    "output_tokens": 237,
+    "cache_read": 12416,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0068",
+    "session_id": "e5c461f5-1b73-45f9-bd3d-f81b23943adc",
+    "timestamp": "2026-04-03T02:02:50Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": null,
+    "input_tokens": 14860,
+    "output_tokens": 732,
+    "cache_read": 13824,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0069",
+    "session_id": "8a20b5ae-4195-4c05-b50c-703eded0f22f",
+    "timestamp": "2026-04-03T02:03:09Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 12146,
+    "output_tokens": 397,
+    "cache_read": 1536,
     "provider": "openai-codex"
   }
 ]
