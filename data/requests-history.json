@@ -886,5 +886,17 @@
     "output_tokens": 89,
     "cache_read": 2560,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0075",
+    "session_id": "72e6560c-4f0a-4397-9eca-2107f0bbbbaf",
+    "timestamp": "2026-04-03T10:49:34Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": null,
+    "input_tokens": 18856,
+    "output_tokens": 437,
+    "cache_read": 17999,
+    "provider": "google"
   }
 ]
