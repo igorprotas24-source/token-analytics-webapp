@@ -1010,5 +1010,27 @@
     "output_tokens": 71,
     "cache_read": 7680,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0093",
+    "timestamp": "2026-04-05T07:47:47Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": "telegram",
+    "input_tokens": 8809,
+    "output_tokens": 305,
+    "cache_read": 0,
+    "provider": "google"
+  },
+  {
+    "id": "req_0094",
+    "timestamp": "2026-04-05T07:53:28Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": null,
+    "input_tokens": 2322,
+    "output_tokens": 112,
+    "cache_read": 0,
+    "provider": "google"
   }
 ]
