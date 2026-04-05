@@ -1066,5 +1066,29 @@
     "output_tokens": 397,
     "cache_read": 1536,
     "provider": "google"
+  },
+  {
+    "id": "req_0090",
+    "session_id": "f59d9cad-64cb-49c9-a02d-ed8f73fb7082",
+    "timestamp": "2026-04-05T03:36:54Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 8158,
+    "output_tokens": 227,
+    "cache_read": 3584,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0091",
+    "session_id": "72e6560c-4f0a-4397-9eca-2107f0bbbbaf",
+    "timestamp": "2026-04-05T03:53:47Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": null,
+    "input_tokens": 43738,
+    "output_tokens": 84,
+    "cache_read": 0,
+    "provider": "google"
   }
 ]
