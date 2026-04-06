@@ -1210,5 +1210,17 @@
     "output_tokens": 91,
     "cache_read": 20352,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0102",
+    "session_id": "72e6560c-4f0a-4397-9eca-2107f0bbbbaf",
+    "timestamp": "2026-04-05T23:50:51Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": null,
+    "input_tokens": 11395,
+    "output_tokens": 81,
+    "cache_read": 56145,
+    "provider": "google"
   }
 ]
