@@ -1318,5 +1318,53 @@
     "output_tokens": 0,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0111",
+    "session_id": "d0bb3b86-5aea-4eb7-8de7-c3f0852f0e23",
+    "timestamp": "2026-04-06T07:00:45Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-pro",
+    "skill": "cron",
+    "input_tokens": 23011,
+    "output_tokens": 1480,
+    "cache_read": 42240,
+    "provider": "google"
+  },
+  {
+    "id": "req_0112",
+    "session_id": "21155377-068d-4053-b7f1-c3576ddeea60",
+    "timestamp": "2026-04-06T07:08:27Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": "cron",
+    "input_tokens": 19522,
+    "output_tokens": 850,
+    "cache_read": 33989,
+    "provider": "google"
+  },
+  {
+    "id": "req_0113",
+    "session_id": "0fff93d2-4120-4e56-9632-33630a04831c",
+    "timestamp": "2026-04-06T07:08:51Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": "cron",
+    "input_tokens": 17558,
+    "output_tokens": 363,
+    "cache_read": 16982,
+    "provider": "google"
+  },
+  {
+    "id": "req_0114",
+    "session_id": "722381b7-836a-414f-9613-b8f1e4dbcfb9",
+    "timestamp": "2026-04-06T07:10:20Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-flash",
+    "skill": "cron",
+    "input_tokens": 67093,
+    "output_tokens": 722,
+    "cache_read": 0,
+    "provider": "google"
   }
 ]
