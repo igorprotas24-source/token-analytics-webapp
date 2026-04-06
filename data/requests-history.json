@@ -1222,5 +1222,17 @@
     "output_tokens": 81,
     "cache_read": 56145,
     "provider": "google"
+  },
+  {
+    "id": "req_0103",
+    "session_id": "aa567fc4-82b8-4f03-aa12-9a5bc896a723",
+    "timestamp": "2026-04-06T02:00:06Z",
+    "agent": "main",
+    "model": "google/gemini-2.5-pro",
+    "skill": "cron",
+    "input_tokens": 30964,
+    "output_tokens": 3650,
+    "cache_read": 272896,
+    "provider": "google"
   }
 ]
