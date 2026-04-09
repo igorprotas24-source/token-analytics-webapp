@@ -1990,5 +1990,17 @@
     "output_tokens": 268,
     "cache_read": 24704,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0167",
+    "session_id": "70b5da68-f2ca-4c08-acb9-c00890a4d2b0",
+    "timestamp": "2026-04-09T10:34:49Z",
+    "agent": "coder",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": null,
+    "input_tokens": 828743,
+    "output_tokens": 4250,
+    "cache_read": 1603072,
+    "provider": "openai-codex"
   }
 ]
