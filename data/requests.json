@@ -1681,5 +1681,27 @@
     "output_tokens": 0,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0154",
+    "timestamp": "2026-04-09T01:49:45Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": null,
+    "input_tokens": 16000,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0155",
+    "timestamp": "2026-04-09T02:00:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 33667,
+    "output_tokens": 3531,
+    "cache_read": 355200,
+    "provider": "openai-codex"
   }
 ]
