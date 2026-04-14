@@ -2300,6 +2300,17 @@
   },
   {
     "id": "req_0210",
+    "timestamp": "2026-04-14T18:00:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.3-codex",
+    "skill": "cron",
+    "input_tokens": 21707,
+    "output_tokens": 1066,
+    "cache_read": 68608,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0211",
     "timestamp": "2026-04-14T18:00:01Z",
     "agent": "main",
     "model": "openai-codex/gpt-5.3-codex",
@@ -2307,6 +2318,17 @@
     "input_tokens": 19935,
     "output_tokens": 1033,
     "cache_read": 72192,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0212",
+    "timestamp": "2026-04-14T18:49:58Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 2966,
+    "output_tokens": 0,
+    "cache_read": 4096,
     "provider": "openai-codex"
   }
 ]
