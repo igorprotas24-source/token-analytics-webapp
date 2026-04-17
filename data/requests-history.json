@@ -2986,5 +2986,17 @@
     "output_tokens": 0,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0250",
+    "session_id": "f76f4ece-e532-492b-be8e-07488f693b11",
+    "timestamp": "2026-04-17T17:00:06Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 324,
+    "output_tokens": 91,
+    "cache_read": 27648,
+    "provider": "openai-codex"
   }
 ]
