@@ -3199,5 +3199,27 @@
     "output_tokens": 17,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0292",
+    "timestamp": "2026-04-19T22:50:22Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 0,
+    "output_tokens": 85,
+    "cache_read": 30848,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0293",
+    "timestamp": "2026-04-19T22:50:27Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 528,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
