@@ -3276,5 +3276,71 @@
     "output_tokens": 350,
     "cache_read": 35712,
     "provider": "google"
+  },
+  {
+    "id": "req_0299",
+    "timestamp": "2026-04-20T02:00:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 18400,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0300",
+    "timestamp": "2026-04-20T02:00:46Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 108123,
+    "output_tokens": 1520,
+    "cache_read": 27136,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0301",
+    "timestamp": "2026-04-20T02:03:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 9334,
+    "output_tokens": 217,
+    "cache_read": 16768,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0302",
+    "timestamp": "2026-04-20T02:03:31Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 33247,
+    "output_tokens": 38,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0303",
+    "timestamp": "2026-04-20T02:17:05Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 10422,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0304",
+    "timestamp": "2026-04-20T02:49:19Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 508,
+    "output_tokens": 20,
+    "cache_read": 19456,
+    "provider": "openai-codex"
   }
 ]
