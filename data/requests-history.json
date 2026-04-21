@@ -4126,5 +4126,29 @@
     "output_tokens": 125,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0345",
+    "session_id": "2947d6f4-feec-45ad-8c1e-1621d97db008",
+    "timestamp": "2026-04-21T16:32:31Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 14195,
+    "output_tokens": 4,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0346",
+    "session_id": "ddf76768-ca6c-4c04-b5e1-5a7b44dab928",
+    "timestamp": "2026-04-21T16:36:53Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 22552,
+    "output_tokens": 189,
+    "cache_read": 18816,
+    "provider": "openai-codex"
   }
 ]
