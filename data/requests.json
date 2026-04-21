@@ -3804,5 +3804,38 @@
     "output_tokens": 189,
     "cache_read": 18816,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0347",
+    "timestamp": "2026-04-21T17:30:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 16907,
+    "output_tokens": 70,
+    "cache_read": 16640,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0348",
+    "timestamp": "2026-04-21T17:31:42Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 4992,
+    "output_tokens": 32,
+    "cache_read": 71168,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0349",
+    "timestamp": "2026-04-21T18:00:01Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 35763,
+    "output_tokens": 507,
+    "cache_read": 33280,
+    "provider": "google"
   }
 ]
