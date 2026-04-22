@@ -4622,6 +4622,18 @@
   {
     "id": "req_0386",
     "session_id": "71492b70-c1d4-42fc-8095-96630da30a8e",
+    "timestamp": "2026-04-22T18:00:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 4461,
+    "output_tokens": 407,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0387",
+    "session_id": "71492b70-c1d4-42fc-8095-96630da30a8e",
     "timestamp": "2026-04-22T18:00:01Z",
     "agent": "main",
     "model": "google/gemini-3.1-pro-preview",
@@ -4630,5 +4642,29 @@
     "output_tokens": 448,
     "cache_read": 33792,
     "provider": "google"
+  },
+  {
+    "id": "req_0388",
+    "session_id": "4c0580f6-5590-4f07-9353-199c22bef7ca",
+    "timestamp": "2026-04-22T18:03:30Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 684,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0389",
+    "session_id": "83da755d-211b-4d51-8077-d9a0208e396e",
+    "timestamp": "2026-04-22T18:31:08Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 7936,
+    "output_tokens": 0,
+    "cache_read": 7936,
+    "provider": "openai-codex"
   }
 ]
