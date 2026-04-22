@@ -4294,5 +4294,53 @@
     "output_tokens": 74,
     "cache_read": 16512,
     "provider": "google"
+  },
+  {
+    "id": "req_0359",
+    "session_id": "631d1fe8-5526-4858-8163-524ed0f5f41b",
+    "timestamp": "2026-04-22T02:00:22Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 69081,
+    "output_tokens": 898,
+    "cache_read": 44288,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0360",
+    "session_id": "885d486e-3b2f-408c-9085-d32480ad1cda",
+    "timestamp": "2026-04-22T02:01:35Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 13318,
+    "output_tokens": 190,
+    "cache_read": 12928,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0361",
+    "session_id": "1f6afc76-4a41-4f13-b550-c4521b17ef88",
+    "timestamp": "2026-04-22T02:02:01Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 33449,
+    "output_tokens": 51,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0362",
+    "session_id": "83da755d-211b-4d51-8077-d9a0208e396e",
+    "timestamp": "2026-04-22T02:32:56Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": null,
+    "input_tokens": 0,
+    "output_tokens": 95,
+    "cache_read": 36352,
+    "provider": "openai-codex"
   }
 ]
