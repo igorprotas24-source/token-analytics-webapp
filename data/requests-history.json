@@ -4606,5 +4606,29 @@
     "output_tokens": 1,
     "cache_read": 8192,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0385",
+    "session_id": "5feb62fa-889a-45c8-aa1b-452713634fb3",
+    "timestamp": "2026-04-22T17:30:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 33547,
+    "output_tokens": 68,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0386",
+    "session_id": "71492b70-c1d4-42fc-8095-96630da30a8e",
+    "timestamp": "2026-04-22T18:00:01Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 35519,
+    "output_tokens": 448,
+    "cache_read": 33792,
+    "provider": "google"
   }
 ]

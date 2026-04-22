@@ -4222,5 +4222,27 @@
     "output_tokens": 1,
     "cache_read": 8192,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0385",
+    "timestamp": "2026-04-22T17:30:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "cron",
+    "input_tokens": 33547,
+    "output_tokens": 68,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0386",
+    "timestamp": "2026-04-22T18:00:01Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 35519,
+    "output_tokens": 448,
+    "cache_read": 33792,
+    "provider": "google"
   }
 ]
