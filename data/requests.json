@@ -4068,5 +4068,27 @@
     "output_tokens": 33,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0371",
+    "timestamp": "2026-04-22T08:32:38Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 9647,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0372",
+    "timestamp": "2026-04-22T08:58:43Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 1730,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
