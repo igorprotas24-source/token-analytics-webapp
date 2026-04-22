@@ -4534,5 +4534,17 @@
     "output_tokens": 0,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0379",
+    "session_id": "4c0580f6-5590-4f07-9353-199c22bef7ca",
+    "timestamp": "2026-04-22T12:03:15Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-4o-mini",
+    "skill": "telegram",
+    "input_tokens": 260,
+    "output_tokens": 16,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
