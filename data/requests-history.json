@@ -4726,5 +4726,29 @@
     "output_tokens": 45,
     "cache_read": 9088,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0395",
+    "session_id": "3a6aa9f1-2d22-4417-9e7e-1a4a0ae83ade",
+    "timestamp": "2026-04-23T17:30:17Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 33547,
+    "output_tokens": 68,
+    "cache_read": 0,
+    "provider": "google"
+  },
+  {
+    "id": "req_0396",
+    "session_id": "ccce01ba-84f4-4e51-b030-4f1f77c4c670",
+    "timestamp": "2026-04-23T18:00:01Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 39980,
+    "output_tokens": 855,
+    "cache_read": 33408,
+    "provider": "google"
   }
 ]
