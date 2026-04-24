@@ -4798,5 +4798,29 @@
     "output_tokens": 51,
     "cache_read": 0,
     "provider": "google"
+  },
+  {
+    "id": "req_0401",
+    "session_id": "f5343881-c4ce-4227-a7f1-2d91ac00f85b",
+    "timestamp": "2026-04-24T17:30:18Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 33547,
+    "output_tokens": 68,
+    "cache_read": 0,
+    "provider": "google"
+  },
+  {
+    "id": "req_0402",
+    "session_id": "7769c2bd-ecf0-4f44-b083-94ce5765e8b3",
+    "timestamp": "2026-04-24T18:00:00Z",
+    "agent": "main",
+    "model": "google/gemini-3.1-pro-preview",
+    "skill": "cron",
+    "input_tokens": 39980,
+    "output_tokens": 855,
+    "cache_read": 33408,
+    "provider": "google"
   }
 ]
