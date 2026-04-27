@@ -5338,5 +5338,29 @@
     "output_tokens": 290,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0446",
+    "session_id": "52f71d07-04b7-4291-a34d-318c5adf888c",
+    "timestamp": "2026-04-27T15:30:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 95433,
+    "output_tokens": 2495,
+    "cache_read": 538624,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0447",
+    "session_id": "0c3d908a-ca73-487c-80cd-4f69e481d8f9",
+    "timestamp": "2026-04-27T15:31:21Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 12095,
+    "output_tokens": 65,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
