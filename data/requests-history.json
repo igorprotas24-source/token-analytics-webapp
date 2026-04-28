@@ -5494,5 +5494,77 @@
     "output_tokens": 0,
     "cache_read": 0,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0459",
+    "session_id": "c40d4cf5-2c96-4ebe-b495-33c1ca221895",
+    "timestamp": "2026-04-28T08:08:45Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 82278,
+    "output_tokens": 5910,
+    "cache_read": 905216,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0460",
+    "session_id": "97712383-837d-423c-b208-17f38f778f5c",
+    "timestamp": "2026-04-28T08:10:14Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 4566,
+    "output_tokens": 98,
+    "cache_read": 44032,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0461",
+    "session_id": "132d9b75-a859-44b1-8d43-0327c94961f5",
+    "timestamp": "2026-04-28T08:12:01Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 11786,
+    "output_tokens": 245,
+    "cache_read": 16384,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0462",
+    "session_id": "346340c0-d748-46db-b08d-14572b389dd2",
+    "timestamp": "2026-04-28T08:12:10Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 33070,
+    "output_tokens": 811,
+    "cache_read": 136704,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0463",
+    "session_id": "06661cbf-3f8e-4cf1-b494-8005ad2af693",
+    "timestamp": "2026-04-28T08:12:42Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 17531,
+    "output_tokens": 198,
+    "cache_read": 53760,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0464",
+    "session_id": "f0887e2d-cd19-4afa-a49a-d5235b0ca9e3",
+    "timestamp": "2026-04-28T08:40:18Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": null,
+    "input_tokens": 39547,
+    "output_tokens": 211,
+    "cache_read": 26624,
+    "provider": "openai-codex"
   }
 ]
