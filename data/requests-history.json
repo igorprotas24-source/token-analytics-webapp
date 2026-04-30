@@ -6382,5 +6382,65 @@
     "output_tokens": 519,
     "cache_read": 1024,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0533",
+    "session_id": "fc4ae0b2-982d-4855-9a0c-f2ae5093a82f",
+    "timestamp": "2026-04-30T17:22:32Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": null,
+    "input_tokens": 19798,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0534",
+    "session_id": "f5ee7b40-e3b0-44d5-a8ac-06a0af986911",
+    "timestamp": "2026-04-30T17:27:04Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 2816,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0535",
+    "session_id": "46d07c7f-c9fc-48dc-9af8-d60ef7816d05",
+    "timestamp": "2026-04-30T17:30:00Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 14955,
+    "output_tokens": 243,
+    "cache_read": 20992,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0536",
+    "session_id": "8f5470c1-f229-4666-8725-cee875019a10",
+    "timestamp": "2026-04-30T17:39:45Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 61987,
+    "output_tokens": 0,
+    "cache_read": 29696,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0537",
+    "session_id": "0b38e6fa-960c-4cb9-b992-1e92b3867256",
+    "timestamp": "2026-04-30T18:00:01Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "cron",
+    "input_tokens": 24636,
+    "output_tokens": 1337,
+    "cache_read": 122368,
+    "provider": "openai-codex"
   }
 ]
