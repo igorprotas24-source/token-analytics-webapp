@@ -6125,5 +6125,27 @@
     "output_tokens": 38,
     "cache_read": 6144,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0558",
+    "timestamp": "2026-05-01T13:52:12Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": null,
+    "input_tokens": 22030,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0559",
+    "timestamp": "2026-05-01T13:56:29Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 22678,
+    "output_tokens": 301,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
