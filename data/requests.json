@@ -7720,5 +7720,27 @@
     "output_tokens": 197,
     "cache_read": 17152,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0703",
+    "timestamp": "2026-05-07T20:48:54Z",
+    "agent": "zametki_agent",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "telegram",
+    "input_tokens": 51294,
+    "output_tokens": 551,
+    "cache_read": 0,
+    "provider": "anthropic"
+  },
+  {
+    "id": "req_0704",
+    "timestamp": "2026-05-07T20:52:44Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-4o",
+    "skill": "telegram",
+    "input_tokens": 2429,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "provider": "openai-codex"
   }
 ]
