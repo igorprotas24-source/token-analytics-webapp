@@ -8556,5 +8556,60 @@
     "output_tokens": 183,
     "cache_read": 34688,
     "provider": "openai-codex"
+  },
+  {
+    "id": "req_0779",
+    "timestamp": "2026-05-14T12:12:26Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 25143,
+    "output_tokens": 213,
+    "cache_read": 20480,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0780",
+    "timestamp": "2026-05-14T12:13:41Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 13783,
+    "output_tokens": 191,
+    "cache_read": 11776,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0781",
+    "timestamp": "2026-05-14T12:15:18Z",
+    "agent": "mcs-assistant",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 700,
+    "output_tokens": 30,
+    "cache_read": 17408,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0782",
+    "timestamp": "2026-05-14T12:15:39Z",
+    "agent": "zametki_agent",
+    "model": "openai-codex/gpt-5.4",
+    "skill": "telegram",
+    "input_tokens": 1607,
+    "output_tokens": 269,
+    "cache_read": 1536,
+    "provider": "openai-codex"
+  },
+  {
+    "id": "req_0783",
+    "timestamp": "2026-05-14T12:41:41Z",
+    "agent": "main",
+    "model": "openai-codex/gpt-5.4",
+    "skill": null,
+    "input_tokens": 4687,
+    "output_tokens": 111,
+    "cache_read": 21504,
+    "provider": "openai-codex"
   }
 ]
