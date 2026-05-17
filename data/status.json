@@ -1,33 +1,53 @@
 {
-  "updated_at": "2026-05-17T02:00:09Z",
+  "updated_at": "2026-05-17T03:00:11Z",
   "gateway": "running",
   "sessions": [
     {
       "agent": "main",
       "model": "gpt-5.4",
-      "tokens_used": 73354,
+      "tokens_used": 34546,
       "context_window": 272000,
-      "last_active": "7s ago",
-      "input_tokens": 78134,
-      "output_tokens": 6448,
-      "cache_read": 960000
+      "last_active": "1638s ago",
+      "input_tokens": 12470,
+      "output_tokens": 120,
+      "cache_read": 24064
     },
     {
       "agent": "main",
       "model": "gpt-5.4",
-      "tokens_used": 28290,
+      "tokens_used": 22447,
       "context_window": 272000,
-      "last_active": "1122s ago",
-      "input_tokens": 6627,
-      "output_tokens": 192,
-      "cache_read": 24576
+      "last_active": "3488s ago",
+      "input_tokens": 21924,
+      "output_tokens": 1008,
+      "cache_read": 164864
+    },
+    {
+      "agent": "main",
+      "model": "gpt-5.4",
+      "tokens_used": 14212,
+      "context_window": 272000,
+      "last_active": "3499s ago",
+      "input_tokens": 10745,
+      "output_tokens": 314,
+      "cache_read": 17408
+    },
+    {
+      "agent": "main",
+      "model": "gpt-5.4",
+      "tokens_used": 48234,
+      "context_window": 272000,
+      "last_active": "3610s ago",
+      "input_tokens": 49192,
+      "output_tokens": 4582,
+      "cache_read": 297984
     },
     {
       "agent": "main",
       "model": "gpt-5.4",
       "tokens_used": 24405,
       "context_window": 272000,
-      "last_active": "28729s ago",
+      "last_active": "32331s ago",
       "input_tokens": 23167,
       "output_tokens": 1558,
       "cache_read": 177664
@@ -37,37 +57,17 @@
       "model": "gpt-5.4",
       "tokens_used": 56184,
       "context_window": 272000,
-      "last_active": "28805s ago",
+      "last_active": "32407s ago",
       "input_tokens": 56577,
       "output_tokens": 2549,
       "cache_read": 138752
-    },
-    {
-      "agent": "main",
-      "model": "gpt-5.4",
-      "tokens_used": 18353,
-      "context_window": 272000,
-      "last_active": "30608s ago",
-      "input_tokens": 16218,
-      "output_tokens": 327,
-      "cache_read": 37888
-    },
-    {
-      "agent": "main",
-      "model": "gpt-5.4",
-      "tokens_used": 76503,
-      "context_window": 272000,
-      "last_active": "37808s ago",
-      "input_tokens": 79224,
-      "output_tokens": 2683,
-      "cache_read": 498176
     },
     {
       "agent": "agent-builder",
       "model": "gpt-4o",
       "tokens_used": 13504,
       "context_window": 200000,
-      "last_active": "4358955s ago",
+      "last_active": "4362557s ago",
       "input_tokens": 13504,
       "output_tokens": 39,
       "cache_read": 0
@@ -77,7 +77,7 @@
       "model": "gemini-2.5-pro",
       "tokens_used": 58034,
       "context_window": 1000000,
-      "last_active": "4360407s ago",
+      "last_active": "4364009s ago",
       "input_tokens": 58034,
       "output_tokens": 744,
       "cache_read": 0
@@ -87,7 +87,7 @@
       "model": "gpt-5.4",
       "tokens_used": 113767,
       "context_window": 272000,
-      "last_active": "1428575s ago",
+      "last_active": "1432177s ago",
       "input_tokens": 232654,
       "output_tokens": 6812,
       "cache_read": 1823232
@@ -97,7 +97,7 @@
       "model": "gpt-5.4",
       "tokens_used": 112748,
       "context_window": 272000,
-      "last_active": "1489724s ago",
+      "last_active": "1493326s ago",
       "input_tokens": 518159,
       "output_tokens": 11828,
       "cache_read": 3827200
@@ -107,7 +107,7 @@
       "model": "gpt-5.4",
       "tokens_used": 106763,
       "context_window": 272000,
-      "last_active": "1497919s ago",
+      "last_active": "1501521s ago",
       "input_tokens": 111003,
       "output_tokens": 4994,
       "cache_read": 313344
@@ -117,7 +117,7 @@
       "model": "gpt-5.4",
       "tokens_used": 24806,
       "context_window": 272000,
-      "last_active": "1499706s ago",
+      "last_active": "1503308s ago",
       "input_tokens": 26724,
       "output_tokens": 3403,
       "cache_read": 119808
@@ -127,7 +127,7 @@
       "model": "claude-opus-4-6",
       "tokens_used": null,
       "context_window": 1000000,
-      "last_active": "1696038s ago",
+      "last_active": "1699640s ago",
       "input_tokens": 0,
       "output_tokens": 0,
       "cache_read": 0
@@ -137,7 +137,7 @@
       "model": "claude-opus-4-6",
       "tokens_used": null,
       "context_window": 1000000,
-      "last_active": "1712685s ago",
+      "last_active": "1716287s ago",
       "input_tokens": 0,
       "output_tokens": 0,
       "cache_read": 0
@@ -147,7 +147,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 107525,
       "context_window": 272000,
-      "last_active": "3226298s ago",
+      "last_active": "3229900s ago",
       "input_tokens": 358826,
       "output_tokens": 3501,
       "cache_read": 1562880
@@ -157,7 +157,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 112416,
       "context_window": 272000,
-      "last_active": "3227124s ago",
+      "last_active": "3230726s ago",
       "input_tokens": 396005,
       "output_tokens": 3727,
       "cache_read": 1847808
@@ -167,7 +167,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 78106,
       "context_window": 272000,
-      "last_active": "3252319s ago",
+      "last_active": "3255921s ago",
       "input_tokens": 828743,
       "output_tokens": 4250,
       "cache_read": 1603072
@@ -177,7 +177,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 128665,
       "context_window": 272000,
-      "last_active": "3258046s ago",
+      "last_active": "3261648s ago",
       "input_tokens": 412083,
       "output_tokens": 18772,
       "cache_read": 5766528
@@ -187,7 +187,7 @@
       "model": "gemini-2.5-pro",
       "tokens_used": 19316,
       "context_window": 1000000,
-      "last_active": "4360337s ago",
+      "last_active": "4363939s ago",
       "input_tokens": 38632,
       "output_tokens": 5220,
       "cache_read": 0
@@ -197,7 +197,7 @@
       "model": "gpt-5.4",
       "tokens_used": 18108,
       "context_window": 272000,
-      "last_active": "222290s ago",
+      "last_active": "225892s ago",
       "input_tokens": 700,
       "output_tokens": 30,
       "cache_read": 17408
@@ -207,7 +207,7 @@
       "model": "gpt-5.4",
       "tokens_used": 15117,
       "context_window": 272000,
-      "last_active": "1073237s ago",
+      "last_active": "1076839s ago",
       "input_tokens": 781,
       "output_tokens": 6,
       "cache_read": 14336
@@ -217,7 +217,7 @@
       "model": "gemini-2.5-pro",
       "tokens_used": 15682,
       "context_window": 1000000,
-      "last_active": "4360482s ago",
+      "last_active": "4364084s ago",
       "input_tokens": 15682,
       "output_tokens": 1478,
       "cache_read": 0
@@ -227,7 +227,7 @@
       "model": "gemini-3.1-pro-preview",
       "tokens_used": 13182,
       "context_window": 1048576,
-      "last_active": "4904108s ago",
+      "last_active": "4907710s ago",
       "input_tokens": 13182,
       "output_tokens": 674,
       "cache_read": 0
@@ -237,7 +237,7 @@
       "model": "gpt-5.4",
       "tokens_used": null,
       "context_window": 200000,
-      "last_active": "5477322s ago",
+      "last_active": "5480924s ago",
       "input_tokens": 0,
       "output_tokens": 0,
       "cache_read": 0
@@ -247,7 +247,7 @@
       "model": "gpt-5.4",
       "tokens_used": 19523,
       "context_window": 272000,
-      "last_active": "222269s ago",
+      "last_active": "225871s ago",
       "input_tokens": 17987,
       "output_tokens": 302,
       "cache_read": 1536
@@ -257,7 +257,7 @@
       "model": "gpt-5.4",
       "tokens_used": 13444,
       "context_window": 272000,
-      "last_active": "222387s ago",
+      "last_active": "225989s ago",
       "input_tokens": 13783,
       "output_tokens": 191,
       "cache_read": 11776
@@ -267,7 +267,7 @@
       "model": "gpt-4o",
       "tokens_used": 13185,
       "context_window": 200000,
-      "last_active": "704037s ago",
+      "last_active": "707639s ago",
       "input_tokens": 257,
       "output_tokens": 85,
       "cache_read": 12928
@@ -277,7 +277,7 @@
       "model": "claude-sonnet-4-6",
       "tokens_used": null,
       "context_window": 1000000,
-      "last_active": "796274s ago",
+      "last_active": "799876s ago",
       "input_tokens": 51294,
       "output_tokens": 551,
       "cache_read": 0
@@ -287,7 +287,7 @@
       "model": "gpt-5.4",
       "tokens_used": 17847,
       "context_window": 272000,
-      "last_active": "1152392s ago",
+      "last_active": "1155994s ago",
       "input_tokens": 16311,
       "output_tokens": 108,
       "cache_read": 1536
@@ -297,7 +297,7 @@
       "model": "gpt-4o",
       "tokens_used": 12095,
       "context_window": 200000,
-      "last_active": "1679327s ago",
+      "last_active": "1682929s ago",
       "input_tokens": 12095,
       "output_tokens": 65,
       "cache_read": 0
@@ -307,7 +307,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 12402,
       "context_window": 272000,
-      "last_active": "3104594s ago",
+      "last_active": "3108196s ago",
       "input_tokens": 8818,
       "output_tokens": 200,
       "cache_read": 3584
@@ -317,7 +317,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 10969,
       "context_window": 272000,
-      "last_active": "3824348s ago",
+      "last_active": "3827950s ago",
       "input_tokens": 10969,
       "output_tokens": 232,
       "cache_read": 0
@@ -327,7 +327,7 @@
       "model": "gpt-5.3-codex",
       "tokens_used": 9899,
       "context_window": 272000,
-      "last_active": "3997208s ago",
+      "last_active": "4000810s ago",
       "input_tokens": 8363,
       "output_tokens": 390,
       "cache_read": 1536
