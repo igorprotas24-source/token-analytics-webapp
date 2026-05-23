@@ -10118,5 +10118,27 @@
     "output_tokens": 2082,
     "cache_read": 209408,
     "provider": "unknown"
+  },
+  {
+    "id": "req_0921",
+    "timestamp": "2026-05-23T17:30:13Z",
+    "agent": "main",
+    "model": "unknown/llama-3.3-70b-versatile",
+    "skill": "cron",
+    "input_tokens": 19633,
+    "output_tokens": 429,
+    "cache_read": 56832,
+    "provider": "unknown"
+  },
+  {
+    "id": "req_0922",
+    "timestamp": "2026-05-23T18:00:02Z",
+    "agent": "main",
+    "model": "unknown/llama-3.3-70b-versatile",
+    "skill": "cron",
+    "input_tokens": 40350,
+    "output_tokens": 1943,
+    "cache_read": 307712,
+    "provider": "unknown"
   }
 ]

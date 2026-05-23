@@ -11038,5 +11038,29 @@
     "output_tokens": 2082,
     "cache_read": 209408,
     "provider": "unknown"
+  },
+  {
+    "id": "req_0921",
+    "session_id": "eb55c606-e3c3-4eb0-8c13-af79f8c73778",
+    "timestamp": "2026-05-23T17:30:13Z",
+    "agent": "main",
+    "model": "unknown/llama-3.3-70b-versatile",
+    "skill": "cron",
+    "input_tokens": 19633,
+    "output_tokens": 429,
+    "cache_read": 56832,
+    "provider": "unknown"
+  },
+  {
+    "id": "req_0922",
+    "session_id": "add4c728-0132-48eb-ac4a-92f7c97efcc3",
+    "timestamp": "2026-05-23T18:00:02Z",
+    "agent": "main",
+    "model": "unknown/llama-3.3-70b-versatile",
+    "skill": "cron",
+    "input_tokens": 40350,
+    "output_tokens": 1943,
+    "cache_read": 307712,
+    "provider": "unknown"
   }
 ]
