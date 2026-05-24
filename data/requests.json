@@ -10206,5 +10206,27 @@
     "output_tokens": 2082,
     "cache_read": 209408,
     "provider": "unknown"
+  },
+  {
+    "id": "req_0929",
+    "timestamp": "2026-05-24T18:00:00Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 40350,
+    "output_tokens": 1943,
+    "cache_read": 307712,
+    "provider": "anthropic"
+  },
+  {
+    "id": "req_0930",
+    "timestamp": "2026-05-24T18:00:02Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 19743,
+    "output_tokens": 998,
+    "cache_read": 39424,
+    "provider": "anthropic"
   }
 ]
