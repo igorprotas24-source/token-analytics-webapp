@@ -11158,5 +11158,29 @@
     "output_tokens": 998,
     "cache_read": 39424,
     "provider": "anthropic"
+  },
+  {
+    "id": "req_0931",
+    "session_id": "e471ae63-53e3-4529-b5b6-2910a02b707d",
+    "timestamp": "2026-05-25T02:00:01Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 73450,
+    "output_tokens": 6926,
+    "cache_read": 1021952,
+    "provider": "anthropic"
+  },
+  {
+    "id": "req_0932",
+    "session_id": "3c4e0618-d980-4c3c-9d3a-518e778f1826",
+    "timestamp": "2026-05-25T02:00:04Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 16855,
+    "output_tokens": 395,
+    "cache_read": 13824,
+    "provider": "anthropic"
   }
 ]
