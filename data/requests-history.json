@@ -11242,5 +11242,41 @@
     "output_tokens": 998,
     "cache_read": 39424,
     "provider": "anthropic"
+  },
+  {
+    "id": "req_0938",
+    "session_id": "23adef27-53bf-49b4-99c8-2960e77667a5",
+    "timestamp": "2026-05-26T02:00:00Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 73450,
+    "output_tokens": 6926,
+    "cache_read": 1021952,
+    "provider": "anthropic"
+  },
+  {
+    "id": "req_0939",
+    "session_id": "d8659df5-5491-405b-902e-6381931b607f",
+    "timestamp": "2026-05-26T02:00:02Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 16855,
+    "output_tokens": 395,
+    "cache_read": 13824,
+    "provider": "anthropic"
+  },
+  {
+    "id": "req_0940",
+    "session_id": "7888eba1-5360-4c8a-8b17-4a61ae4ec9f4",
+    "timestamp": "2026-05-26T02:00:05Z",
+    "agent": "main",
+    "model": "anthropic/claude-sonnet-4-6",
+    "skill": "cron",
+    "input_tokens": 23009,
+    "output_tokens": 269,
+    "cache_read": 18944,
+    "provider": "anthropic"
   }
 ]
